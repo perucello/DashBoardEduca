@@ -30,7 +30,7 @@ public class DashboardWeb extends javax.swing.JFrame {
         jButtonCLOSE = new javax.swing.JButton();
         jButtonAcaoWeb = new javax.swing.JButton();
         jButtonAcaoCursos = new javax.swing.JButton();
-        jButtonJDEV = new javax.swing.JButton();
+        jButtonGoogle10 = new javax.swing.JButton();
         jButtonAcaoJava = new javax.swing.JButton();
         jButtonAcaoDefinir = new javax.swing.JButton();
         jButtonGoogle1 = new javax.swing.JButton();
@@ -40,11 +40,11 @@ public class DashboardWeb extends javax.swing.JFrame {
         jButtonJEP = new javax.swing.JButton();
         jButtonJDK = new javax.swing.JButton();
         jButtonJavaTutorial = new javax.swing.JButton();
-        jButtonEvEAD = new javax.swing.JButton();
-        jButtonCdeskEAD = new javax.swing.JButton();
-        jButtonUdemy = new javax.swing.JButton();
-        jButtonQODA = new javax.swing.JButton();
-        jButtonSoftBlue = new javax.swing.JButton();
+        jButtonGoogle5 = new javax.swing.JButton();
+        jButtonGoogle6 = new javax.swing.JButton();
+        jButtonGoogle7 = new javax.swing.JButton();
+        jButtonGoogle8 = new javax.swing.JButton();
+        jButtonGoogle9 = new javax.swing.JButton();
         jButtonAzure = new javax.swing.JButton();
         jButtonMicrosoft = new javax.swing.JButton();
         jButtonGoogle = new javax.swing.JButton();
@@ -108,15 +108,15 @@ public class DashboardWeb extends javax.swing.JFrame {
         desktopPane.add(jButtonAcaoCursos);
         jButtonAcaoCursos.setBounds(280, 130, 190, 31);
 
-        jButtonJDEV.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButtonJDEV.setText("JDEV");
-        jButtonJDEV.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGoogle10.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButtonGoogle10.setText("Google10");
+        jButtonGoogle10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonJDEVActionPerformed(evt);
+                jButtonGoogle10ActionPerformed(evt);
             }
         });
-        desktopPane.add(jButtonJDEV);
-        jButtonJDEV.setBounds(310, 320, 121, 23);
+        desktopPane.add(jButtonGoogle10);
+        jButtonGoogle10.setBounds(310, 320, 121, 23);
 
         jButtonAcaoJava.setBackground(new java.awt.Color(204, 255, 204));
         jButtonAcaoJava.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -211,55 +211,55 @@ public class DashboardWeb extends javax.swing.JFrame {
         desktopPane.add(jButtonJavaTutorial);
         jButtonJavaTutorial.setBounds(540, 230, 80, 23);
 
-        jButtonEvEAD.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButtonEvEAD.setText("Evolua EAD");
-        jButtonEvEAD.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGoogle5.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButtonGoogle5.setText("Google5");
+        jButtonGoogle5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonEvEADActionPerformed(evt);
+                jButtonGoogle5ActionPerformed(evt);
             }
         });
-        desktopPane.add(jButtonEvEAD);
-        jButtonEvEAD.setBounds(310, 170, 121, 23);
+        desktopPane.add(jButtonGoogle5);
+        jButtonGoogle5.setBounds(310, 170, 121, 23);
 
-        jButtonCdeskEAD.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButtonCdeskEAD.setText("CDESK EAD");
-        jButtonCdeskEAD.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGoogle6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButtonGoogle6.setText("Google6");
+        jButtonGoogle6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonCdeskEADActionPerformed(evt);
+                jButtonGoogle6ActionPerformed(evt);
             }
         });
-        desktopPane.add(jButtonCdeskEAD);
-        jButtonCdeskEAD.setBounds(310, 200, 121, 23);
+        desktopPane.add(jButtonGoogle6);
+        jButtonGoogle6.setBounds(310, 200, 121, 23);
 
-        jButtonUdemy.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButtonUdemy.setText("Udemy");
-        jButtonUdemy.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGoogle7.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButtonGoogle7.setText("Google7");
+        jButtonGoogle7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonUdemyActionPerformed(evt);
+                jButtonGoogle7ActionPerformed(evt);
             }
         });
-        desktopPane.add(jButtonUdemy);
-        jButtonUdemy.setBounds(310, 230, 121, 23);
+        desktopPane.add(jButtonGoogle7);
+        jButtonGoogle7.setBounds(310, 230, 121, 23);
 
-        jButtonQODA.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButtonQODA.setText("QODA");
-        jButtonQODA.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGoogle8.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButtonGoogle8.setText("Google8");
+        jButtonGoogle8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonQODAActionPerformed(evt);
+                jButtonGoogle8ActionPerformed(evt);
             }
         });
-        desktopPane.add(jButtonQODA);
-        jButtonQODA.setBounds(310, 260, 121, 23);
+        desktopPane.add(jButtonGoogle8);
+        jButtonGoogle8.setBounds(310, 260, 121, 23);
 
-        jButtonSoftBlue.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButtonSoftBlue.setText("SoftBlue");
-        jButtonSoftBlue.addActionListener(new java.awt.event.ActionListener() {
+        jButtonGoogle9.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jButtonGoogle9.setText("Google9");
+        jButtonGoogle9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonSoftBlueActionPerformed(evt);
+                jButtonGoogle9ActionPerformed(evt);
             }
         });
-        desktopPane.add(jButtonSoftBlue);
-        jButtonSoftBlue.setBounds(310, 290, 121, 23);
+        desktopPane.add(jButtonGoogle9);
+        jButtonGoogle9.setBounds(310, 290, 121, 23);
 
         jButtonAzure.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jButtonAzure.setText("Azure");
@@ -329,17 +329,17 @@ public class DashboardWeb extends javax.swing.JFrame {
         estadoControleCursos(true);
     }//GEN-LAST:event_jButtonAcaoCursosActionPerformed
 
-    private void jButtonJDEVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonJDEVActionPerformed
+    private void jButtonGoogle10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGoogle10ActionPerformed
         try { 
             try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.jdevtreinamento.com.br/formacao-java-web-profissional/projeto-java-web.html" ) ); 
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.google.com.br/" ) ); 
             } catch (URISyntaxException ex) { 
                 Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
             } 
             } catch (IOException ex) { 
             Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
         } 
-    }//GEN-LAST:event_jButtonJDEVActionPerformed
+    }//GEN-LAST:event_jButtonGoogle10ActionPerformed
 
     private void jButtonAcaoJavaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAcaoJavaActionPerformed
         estadoControleJava(true);
@@ -425,70 +425,58 @@ public class DashboardWeb extends javax.swing.JFrame {
         } 
     }//GEN-LAST:event_jButtonJavaTutorialActionPerformed
 
-    private void jButtonEvEADActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEvEADActionPerformed
+    private void jButtonGoogle6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGoogle6ActionPerformed
         try { 
             try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "http://app.evoluaeducacao.com.br/Login" ) ); 
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.google.com.br/" ) ); //digite o link do curso online aqui
             } catch (URISyntaxException ex) { 
                 Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
             } 
             } catch (IOException ex) { 
             Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
         } 
-    }//GEN-LAST:event_jButtonEvEADActionPerformed
+    }//GEN-LAST:event_jButtonGoogle6ActionPerformed
 
-    private void jButtonCdeskEADActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCdeskEADActionPerformed
+    private void jButtonGoogle7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGoogle7ActionPerformed
         try { 
             try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://ava.centraldesk.com.br/home/" ) ); 
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.google.com.br/" ) ); //digite o link do curso online aqui
             } catch (URISyntaxException ex) { 
                 Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
             } 
             } catch (IOException ex) { 
             Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
         } 
-    }//GEN-LAST:event_jButtonCdeskEADActionPerformed
+    }//GEN-LAST:event_jButtonGoogle7ActionPerformed
 
-    private void jButtonUdemyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonUdemyActionPerformed
+    private void jButtonGoogle8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGoogle8ActionPerformed
         try { 
             try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.udemy.com/home/my-courses/learning/" ) ); 
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.google.com.br/" ) ); //digite o link do curso online aqui
             } catch (URISyntaxException ex) { 
                 Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
             } 
             } catch (IOException ex) { 
             Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
         } 
-    }//GEN-LAST:event_jButtonUdemyActionPerformed
+    }//GEN-LAST:event_jButtonGoogle8ActionPerformed
 
-    private void jButtonQODAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonQODAActionPerformed
+    private void jButtonGoogle9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGoogle9ActionPerformed
         try { 
             try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://lab.qoda.com.br/user/" ) ); 
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.google.com.br/" ) ); //digite o link do curso online aqui
             } catch (URISyntaxException ex) { 
                 Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
             } 
             } catch (IOException ex) { 
             Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
         } 
-    }//GEN-LAST:event_jButtonQODAActionPerformed
-
-    private void jButtonSoftBlueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSoftBlueActionPerformed
-        try { 
-            try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.softblue.com.br/registration/scores" ) ); 
-            } catch (URISyntaxException ex) { 
-                Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
-            } 
-            } catch (IOException ex) { 
-            Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
-        } 
-    }//GEN-LAST:event_jButtonSoftBlueActionPerformed
+    }//GEN-LAST:event_jButtonGoogle9ActionPerformed
 
     private void jButtonAzureActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAzureActionPerformed
         try { 
             try { 
-                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://portal.azure.com/#home" ) ); 
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://portal.azure.com/#home" ) ); //digite o link do curso online aqui
             } catch (URISyntaxException ex) { 
                 Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
             } 
@@ -520,6 +508,18 @@ public class DashboardWeb extends javax.swing.JFrame {
             Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex); 
         } 
     }//GEN-LAST:event_jButtonGoogleActionPerformed
+
+    private void jButtonGoogle5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGoogle5ActionPerformed
+        try {
+            try {
+                java.awt.Desktop.getDesktop().browse( new java.net.URI( "https://www.google.com.br/" ) );//digite o link do curso online aqui
+            } catch (URISyntaxException ex) {
+                Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } catch (IOException ex) {
+            Logger.getLogger(DashboardWeb.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_jButtonGoogle5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -557,21 +557,21 @@ public class DashboardWeb extends javax.swing.JFrame {
     private javax.swing.JButton jButtonAll;
     private javax.swing.JButton jButtonAzure;
     private javax.swing.JButton jButtonCLOSE;
-    private javax.swing.JButton jButtonCdeskEAD;
-    private javax.swing.JButton jButtonEvEAD;
     private javax.swing.JButton jButtonGoogle;
     private javax.swing.JButton jButtonGoogle1;
+    private javax.swing.JButton jButtonGoogle10;
     private javax.swing.JButton jButtonGoogle3;
     private javax.swing.JButton jButtonGoogle4;
-    private javax.swing.JButton jButtonJDEV;
+    private javax.swing.JButton jButtonGoogle5;
+    private javax.swing.JButton jButtonGoogle6;
+    private javax.swing.JButton jButtonGoogle7;
+    private javax.swing.JButton jButtonGoogle8;
+    private javax.swing.JButton jButtonGoogle9;
     private javax.swing.JButton jButtonJDK;
     private javax.swing.JButton jButtonJEP;
     private javax.swing.JButton jButtonJavaTutorial;
     private javax.swing.JButton jButtonMicrosoft;
     private javax.swing.JButton jButtonOK;
-    private javax.swing.JButton jButtonQODA;
-    private javax.swing.JButton jButtonSoftBlue;
-    private javax.swing.JButton jButtonUdemy;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 
@@ -592,12 +592,12 @@ private void estadoControle(boolean e){
     
     jButtonAzure.setVisible(!e);
     jButtonMicrosoft.setVisible(!e);
-    jButtonEvEAD.setVisible(!e);
-    jButtonCdeskEAD.setVisible(!e);
-    jButtonUdemy.setVisible(!e);
-    jButtonQODA.setVisible(!e);
-    jButtonSoftBlue.setVisible(!e);
-    jButtonJDEV.setVisible(!e);
+    jButtonGoogle5.setVisible(!e);
+    jButtonGoogle6.setVisible(!e);
+    jButtonGoogle7.setVisible(!e);
+    jButtonGoogle8.setVisible(!e);
+    jButtonGoogle9.setVisible(!e);
+    jButtonGoogle10.setVisible(!e);
     jButtonJEP.setVisible(!e);
     jButtonJDK.setVisible(!e);
     jButtonJavaTutorial.setVisible(!e);
@@ -616,12 +616,12 @@ private void estadoControleAll(boolean e){
 
     jButtonAzure.setVisible(e);
     jButtonMicrosoft.setVisible(e);
-    jButtonEvEAD.setVisible(e);
-    jButtonCdeskEAD.setVisible(e);
-    jButtonUdemy.setVisible(e);
-    jButtonQODA.setVisible(e);
-    jButtonSoftBlue.setVisible(e);
-    jButtonJDEV.setVisible(e);
+    jButtonGoogle5.setVisible(e);
+    jButtonGoogle6.setVisible(e);
+    jButtonGoogle7.setVisible(e);
+    jButtonGoogle8.setVisible(e);
+    jButtonGoogle9.setVisible(e);
+    jButtonGoogle10.setVisible(e);
     jButtonJEP.setVisible(e);
     jButtonJDK.setVisible(e);
     jButtonJavaTutorial.setVisible(e);
@@ -640,12 +640,12 @@ private void estadoControleWeb(boolean e){
     
     jButtonAzure.setVisible(e);
     jButtonMicrosoft.setVisible(e);
-    jButtonEvEAD.setVisible(!e);
-    jButtonCdeskEAD.setVisible(!e);
-    jButtonUdemy.setVisible(!e);
-    jButtonQODA.setVisible(!e);
-    jButtonSoftBlue.setVisible(!e);
-    jButtonJDEV.setVisible(!e);
+    jButtonGoogle5.setVisible(!e);
+    jButtonGoogle6.setVisible(!e);
+    jButtonGoogle7.setVisible(!e);
+    jButtonGoogle8.setVisible(!e);
+    jButtonGoogle9.setVisible(!e);
+    jButtonGoogle10.setVisible(!e);
     jButtonJEP.setVisible(!e);
     jButtonJDK.setVisible(!e);
     jButtonJavaTutorial.setVisible(!e);
@@ -664,12 +664,12 @@ private void estadoControleCursos(boolean e){
     
     jButtonAzure.setVisible(!e);
     jButtonMicrosoft.setVisible(!e);
-    jButtonEvEAD.setVisible(e);
-    jButtonCdeskEAD.setVisible(e);
-    jButtonUdemy.setVisible(e);
-    jButtonQODA.setVisible(e);
-    jButtonSoftBlue.setVisible(e);
-    jButtonJDEV.setVisible(e);
+    jButtonGoogle5.setVisible(e);
+    jButtonGoogle6.setVisible(e);
+    jButtonGoogle7.setVisible(e);
+    jButtonGoogle8.setVisible(e);
+    jButtonGoogle9.setVisible(e);
+    jButtonGoogle10.setVisible(e);
     jButtonJEP.setVisible(!e);
     jButtonJDK.setVisible(!e);
     jButtonJavaTutorial.setVisible(!e);
@@ -688,12 +688,12 @@ private void estadoControleJava(boolean e){
     
     jButtonAzure.setVisible(!e);
     jButtonMicrosoft.setVisible(!e);
-    jButtonEvEAD.setVisible(!e);
-    jButtonCdeskEAD.setVisible(!e);
-    jButtonUdemy.setVisible(!e);
-    jButtonQODA.setVisible(!e);
-    jButtonSoftBlue.setVisible(!e);
-    jButtonJDEV.setVisible(!e);
+    jButtonGoogle5.setVisible(!e);
+    jButtonGoogle6.setVisible(!e);
+    jButtonGoogle7.setVisible(!e);
+    jButtonGoogle8.setVisible(!e);
+    jButtonGoogle9.setVisible(!e);
+    jButtonGoogle10.setVisible(!e);
     jButtonJEP.setVisible(e);
     jButtonJDK.setVisible(e);
     jButtonJavaTutorial.setVisible(e);
@@ -712,12 +712,12 @@ private void estadoControleSysC(boolean e){
     
     jButtonAzure.setVisible(!e);
     jButtonMicrosoft.setVisible(!e);
-    jButtonEvEAD.setVisible(!e);
-    jButtonCdeskEAD.setVisible(!e);
-    jButtonUdemy.setVisible(!e);
-    jButtonQODA.setVisible(!e);
-    jButtonSoftBlue.setVisible(!e);
-    jButtonJDEV.setVisible(!e);
+    jButtonGoogle5.setVisible(!e);
+    jButtonGoogle6.setVisible(!e);
+    jButtonGoogle7.setVisible(!e);
+    jButtonGoogle8.setVisible(!e);
+    jButtonGoogle9.setVisible(!e);
+    jButtonGoogle10.setVisible(!e);
     jButtonJEP.setVisible(!e);
     jButtonJDK.setVisible(!e);
     jButtonJavaTutorial.setVisible(!e);
@@ -736,12 +736,12 @@ private void estadoControleEvolua(boolean e){
     
     jButtonAzure.setVisible(!e);
     jButtonMicrosoft.setVisible(!e);
-    jButtonEvEAD.setVisible(!e);
-    jButtonCdeskEAD.setVisible(!e);
-    jButtonUdemy.setVisible(!e);
-    jButtonQODA.setVisible(!e);
-    jButtonSoftBlue.setVisible(!e);
-    jButtonJDEV.setVisible(!e);
+    jButtonGoogle5.setVisible(!e);
+    jButtonGoogle6.setVisible(!e);
+    jButtonGoogle7.setVisible(!e);
+    jButtonGoogle8.setVisible(!e);
+    jButtonGoogle9.setVisible(!e);
+    jButtonGoogle10.setVisible(!e);
     jButtonJEP.setVisible(!e);
     jButtonJDK.setVisible(!e);
     jButtonJavaTutorial.setVisible(!e);
